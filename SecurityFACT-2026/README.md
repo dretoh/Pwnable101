@@ -29,7 +29,7 @@
 ```
 (1) pwntools, pwndbg, docker 설치 및 실습
 (2) Buffer Overflow
-(3) Heap Overflow & Heap Exploit Tech
+(3) Heap Overflow & Heap Exploit 개요
 (4) Format String Bug
 (5) Double Free & Use After Free
 (6) ROP
