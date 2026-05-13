@@ -1,0 +1,2 @@
+flag{format_string_bug}
+
