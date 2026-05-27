@@ -18,6 +18,7 @@
 (4) [이론] x86 어셈블리어
 (5) [실습] handray
 ```
+
 ## 05-11 (온라인)
 
 과제
@@ -25,6 +26,7 @@
 (1) 분석 도구 설치
 (2) [Uninitialized Memory] handray 분석
 ```
+
 ## 05-13 (오프라인)
 ```
 (1) pwntools, pwndbg, docker 설치 및 실습
@@ -36,23 +38,45 @@
 ```
 과제
 ```
-(1) [이론] ASLR / PIE
-(2) [이론] RELRO / GOT
-(3) [이론] Buffer overflow
-(4) [이론] Return Oriented Programming(ROP)
-(5) [이론] format string bug
-(3) [실습][기한 X] FSB(03)
-(4) [실습] ROP1
-(5) [실습] ROP2
+(1) [이론/실습] pwntools 명령어 학습
+(2) [이론/실습] 버퍼오버플로우
+(3) [이론] Stack Canary
+(4) [이론] ASLR / PIE 조사
 ```
-## 05-18 (예정)
+
+## 05-25 (온라인)
+과제
+```
+https://dreamhack.io/wargame/challenges/353
+```
+
+## 05-27 
+```
+(1) 문제 분석, 디버깅, 익스플로잇 코드 작성 전과정 학습 & 복습
+> 미티게이션 확인 - checksec
+> 분석 - objdump
+> 동적 분석 - gdb
+> ASLR/PIE
+> ret2libc
+(2) ROP
+(3) RELRO
+```
+
+과제 
+```
+(1) [이론] format string bug
+(2) [실습/기한X] fsb 문제
+(3) [실습] ROP
+```
+
+## 06-01
+```
+(1) Heap Exploit
+```
+
+## 06-03
 
 과제
 ```
 (1) [프로젝트] glibc heap allocator (int_malloc)
 ```
-## 05-25 (예정)
-
-## 06-01 (예정)
-
-## 06-03 (예정)
