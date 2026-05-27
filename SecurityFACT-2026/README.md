@@ -31,9 +31,7 @@
 ```
 (1) pwntools, pwndbg, docker 설치 및 실습
 (2) Buffer Overflow
-(3) Heap Overflow & Heap Exploit 개요
-(4) Format String Bug
-(5) Double Free & Use After Free
+(3) Stack Canary
 (6) ROP
 ```
 과제
@@ -59,20 +57,28 @@ https://dreamhack.io/wargame/challenges/353
 > 익스플로잇 작성 - pwntools
 > ASLR/PIE
 > ret2libc
+> canary
 (2) ROP
 (3) RELRO
+(4) format string bug
 ```
 
 과제 
 ```
 (1) [이론] format string bug
-(2) [실습/기한X] fsb 문제
-(3) [실습] ROP
+(2) [이론] RELRO / lazy binding
+(3) [실습] ROP (1차) - GOT Overwrite
+(4) [실습] ROP (2차) - dlresolve
+(5) [실습] ROP (3차)
+(6) [실습/기한X] fsb 
+(7) [실습/기한X] pie
 ```
 
 ## 06-01
 ```
-(1) Heap Exploit
+(1) Heap Overflow & Heap Exploit 개요
+(2) Format String Bug
+(3) Double Free & Use After Free
 ```
 
 ## 06-03
