@@ -54,8 +54,9 @@ https://dreamhack.io/wargame/challenges/353
 ```
 (1) 문제 분석, 디버깅, 익스플로잇 코드 작성 전과정 학습 & 복습
 > 미티게이션 확인 - checksec
-> 분석 - objdump
+> 정적 분석 - objdump
 > 동적 분석 - gdb
+> 익스플로잇 작성 - pwntools
 > ASLR/PIE
 > ret2libc
 (2) ROP
