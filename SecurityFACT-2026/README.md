@@ -67,9 +67,9 @@ https://dreamhack.io/wargame/challenges/353
 ```
 (1) [이론] format string bug
 (2) [이론] RELRO / lazy binding
-(3) [실습] ROP (1차) - GOT Overwrite
+(3) [실습] ROP (1차) - GOT
 (4) [실습] ROP (2차) - dlresolve
-(5) [실습] ROP (3차)
+(5) [실습] ROP (3차) - pivot
 (6) [실습/기한X] fsb 
 (7) [실습/기한X] pie
 ```
