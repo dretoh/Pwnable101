@@ -61,29 +61,34 @@ https://dreamhack.io/wargame/challenges/353
 (2) ROP
 (3) RELRO
 (4) format string bug
+(5) RELRO / GOT Overwrite
 ```
 
 과제 
 ```
 (1) [이론] format string bug
 (2) [이론] RELRO / lazy binding
-(3) [실습] ROP (1차) - GOT
-(4) [실습] ROP (2차) - dlresolve
-(5) [실습] ROP (3차) - pivot
-(6) [실습/기한X] fsb 
-(7) [실습/기한X] pie
+(3) [실습/기한X] https://github.com/dretoh/Pwnable101/tree/main/03-Format-String-Bug/prob
+(4) [실습/기한X] https://github.com/dretoh/Pwnable101/tree/main/SecurityFACT-2026/prob/pie-prob2
 ```
 
 ## 06-01
-```
-(1) Heap Overflow & Heap Exploit 개요
-(2) Format String Bug
-(3) Double Free & Use After Free
-```
-
-## 06-03
 
 과제
 ```
-(1) [프로젝트] glibc heap allocator (int_malloc)
+(1) [실습] ROP
+(2) [실습/기한X] distr (CTF prob)
+```
+
+## 06-03
+```
+(*) Recap - stack pivoting
+(1) Heap Overflow & Heap Exploit 개요
+(2) Double Free & Use After Free
+(3) tcache, tcache poisoning
+```
+
+과제
+```
+(1) [프로젝트] glibc heap allocator (int_malloc) 분석
 ```
