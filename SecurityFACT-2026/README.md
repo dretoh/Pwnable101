@@ -135,7 +135,7 @@ hint : open - read - write 시스템 호출 활용
  
 - fastbin, smallbin, largebin, unsortedbin
 
-(2) [IDA](https://hex-rays.com/ida-free)
+(2) [IDA](https://hex-rays.com/ida-free) [Ghidra](https://github.com/nationalsecurityagency/ghidra)
 
 ## 스터디 진행 사항 정리
 
