@@ -127,6 +127,16 @@ hint : open - read - write 시스템 호출 활용
 
 (5) tcache poisoning
 
+**과제**
+
+(1) [프로젝트 형 과제][~7월15일] glibc heap allocator
+
+- glibc(2.25 버전) malloc.c - int_malloc()/int_free() 함수 분석 [Source](https://elixir.bootlin.com/glibc/glibc-2.25/source/malloc/malloc.c)
+ 
+- fastbin, smallbin, largebin, unsortedbin
+
+(2) [IDA](https://hex-rays.com/ida-free)
+
 ## 스터디 진행 사항 정리
 
 | 주차 | 핵심 | 세부사항 |
