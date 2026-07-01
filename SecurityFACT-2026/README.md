@@ -165,9 +165,9 @@ hint : open - read - write 시스템 호출 활용
 | STEP1 |  |
 | STEP2 |  |
 
-## 풀이과정 공개
+## 풀이 공개
 
-| 문제 | 문제 링크 | 풀이 과정 링크 | 세부사항 |
+| 문제 | 문제 링크 | 풀이 링크 | 세부사항 |
 |---|---|---|---|
 | FSB | [FSB](https://github.com/dretoh/Pwnable101/blob/main/03-Format-String-Bug/prob.c) | [EXPLOIT](https://github.com/dretoh/Pwnable101/blob/main/03-Format-String-Bug/ex.py) | __stack_chk_fail 활용 |
 | BABYROP | [BABYROP](https://github.com/dretoh/Pwnable101/blob/main/SecurityFACT-2026/prob/babyrop) | [EXPLOIT](https://github.com/dretoh/Pwnable101/blob/main/SecurityFACT-2026/prob/babyrop-exploit.py) | Stack Pivot, RET2DLRESOLVE |
