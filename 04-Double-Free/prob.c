@@ -20,12 +20,12 @@ int main(){
 	while(1){
 		menu();
 		if(scanf("%d", &sel) != 1)
-			return 0;
+			continue;
 
 		printf("idx> ");
 
 		if(scanf("%d", &idx) != 1)
-			return 0;
+			continue;
 		if(idx < 0 || idx >= MAX)
 			continue;
 
@@ -41,9 +41,9 @@ int main(){
 			free(notes[idx]);
 
 		} else if(sel == 3){
-
+			int sz = *(int *)(notes[idx] - 8) & 0xfffffff0;
 			printf("data> ");
-			scanf("%s", notes[idx]);
+			read(0, notes[idx], sz);
 
 		} else if(sel == 4){
 
