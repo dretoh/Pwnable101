@@ -137,6 +137,17 @@ hint : open - read - write 시스템 호출 활용
 
 (2) [IDA](https://hex-rays.com/ida-free) [Ghidra](https://github.com/nationalsecurityagency/ghidra)
 
+## 07-15 (방학-온라인 과제)
+
+**과제**
+
+(1) [~7월22일] prob1
+
+(2) [~7월22일] cdoutside
+
+(3) [~7월22일] prob ([prob](https://github.com/dretoh/Pwnable101/tree/main/04-Double-Free))
+
+
 ## 스터디 진행 사항 정리
 
 | 주차 | 핵심 | 세부사항 |
@@ -154,8 +165,8 @@ hint : open - read - write 시스템 호출 활용
 | 11주차(06-15~06-21) | final |  |
 | 12주차(06-22~06-28) | final |  |
 | 13주차(06-29~07-05) | HEAP 개요, Double Free, UAF | tcache poisoning |
-| 14주차(07-06~07-12) | X |  |
-| 15주차(07-13~07-19) | X |  |
+| 14주차(07-06~07-12) | glibc heap allocator 분석/How2Heap |  |
+| 15주차(07-13~07-19) | 과제(Double Free/Seccomp) |  |
 | 16주차(07-20~07-26) | X |  |
 
 ## 학습 개념 및 기술
@@ -172,3 +183,6 @@ hint : open - read - write 시스템 호출 활용
 | FSB | [FSB](https://github.com/dretoh/Pwnable101/blob/main/03-Format-String-Bug/prob.c) | [EXPLOIT](https://github.com/dretoh/Pwnable101/blob/main/03-Format-String-Bug/ex.py) | __stack_chk_fail 활용 |
 | BABYROP | [BABYROP](https://github.com/dretoh/Pwnable101/blob/main/SecurityFACT-2026/prob/babyrop) | [EXPLOIT](https://github.com/dretoh/Pwnable101/blob/main/SecurityFACT-2026/prob/babyrop-exploit.py) | Stack Pivot, RET2DLRESOLVE |
 | PIE-PROB | [PIE-PROB](https://github.com/dretoh/Pwnable101/blob/main/SecurityFACT-2026/prob/pie-prob) | [EXPLOIT](https://github.com/dretoh/Pwnable101/blob/main/SecurityFACT-2026/prob/pie-prob-exploit.py) | |
+| Double Free  | | |
+| cdoutside | | |
+| seccomp | | |
