@@ -1,4 +1,4 @@
-![HSPACE](https://blog.hspace.io/posts/hctf-2026-writeup/#cdoutside)
+[HSPACE](https://blog.hspace.io/posts/hctf-2026-writeup/#cdoutside)
 
 ```python
 from pwn import *
